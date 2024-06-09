@@ -103,7 +103,8 @@ INSERT INTO `inventory` (`dealership_id`, `VIN`) VALUES
 # Sample data 4 for sales_contracts
 INSERT INTO `sales_contracts` (`VIN`, `sale_date`, `sale_price`, `customer_name`, `customer_phone`) VALUES 
 ('1HGCM82633A123458', '2024-01-15', 29500.00, 'John Doe', '555-1234'),
-('1HGCM82633A123461', '2024-03-10', 49000.00, 'Alice Smith', '555-6789');
+('1HGCM82633A123461', '2024-03-10', 49000.00, 'Alice Smith', '555-6789'),
+('1HGCM82633A123459', '2024-07-22', 14000.00, 'Eve Davis', '555-2345');
 
 # Sample data 5 for (optional) lease_contracts 
 INSERT INTO `lease_contracts` (`VIN`, `lease_start_date`, `lease_end_date`, `monthly_payment`, `customer_name`, `customer_phone`) VALUES 
